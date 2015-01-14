@@ -42,7 +42,7 @@ private:
     stack<TreeNode*> stk;
     TreeNode *nd;
 };
-
+ 
 /**
  * Your BSTIterator will be called like this:
  * BSTIterator i = BSTIterator(root);
