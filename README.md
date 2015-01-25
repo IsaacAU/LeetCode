@@ -16,7 +16,8 @@ LeetCode Catagory
 
 [Add Two Numbers](codes/Add Two Numbers.cpp)   
 [Remove Nth Node From End of List](codes/Remove Nth Node From End of List.cpp)  
-[Merge Two Sorted Lists](codes/Merge Two Sorted Lists.cpp)
+[Merge Two Sorted Lists](codes/Merge Two Sorted Lists.cpp)   
+[Merge k Sorted Lists](codes/Merge k Sorted Lists.cpp)
 
 ### String
 
