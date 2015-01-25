@@ -30,7 +30,8 @@ LeetCode Catagory
 [Linked List Cycle II](codes/Linked List Cycle II.cpp)   
 [Reorder List](codes/Reorder List.cpp)   
 [Insertion Sort List](codes/Insertion Sort List.cpp)  
-[Sort List](codes/Sort List.cpp)
+[Sort List](codes/Sort List.cpp)   
+[Intersection of Two Linked Lists](codes/Intersection of Two Linked Lists.cpp)
 
 ### String
 
