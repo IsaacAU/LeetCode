@@ -41,7 +41,8 @@ LeetCode Catagory
 [Validate Binary Search Tree](codes/Validate Binary Search Tree.cpp)  
 [Recover Binary Search Tree](codes/Recover Binary Search Tree.cpp)   
 [Same Tree](codes/Same Tree.cpp)    
-[Symmetric Tree](codes/Symmetric Tree.cpp)
+[Symmetric Tree](codes/Symmetric Tree.cpp)   
+[Binary Tree Level Order Traversal](codes/Binary Tree Level Order Traversal.cpp)
 
 
 ### String
