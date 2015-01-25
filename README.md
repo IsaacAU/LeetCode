@@ -55,7 +55,8 @@ LeetCode Catagory
 [Convert Sorted Array to Binary Search Tree](codes/Convert Sorted Array to Binary Search Tree.cpp)   
 [Convert Sorted List to Binary Search Tree](codes/Convert Sorted List to Binary Search Tree.cpp)    
 [Flatten Binary Tree to Linked List](codes/Flatten Binary Tree to Linked List.cpp)    
-[Populating Next Right Pointers in Each Node](codes/Populating Next Right Pointers in Each Node.cpp)    
+[Populating Next Right Pointers in Each Node](codes/Populating Next Right Pointers in Each Node.cpp)     
+[Populating Next Right Pointers in Each Node II](codes/Populating Next Right Pointers in Each Node II.cpp)   
 
 
 ### String
