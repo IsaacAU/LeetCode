@@ -18,7 +18,8 @@ LeetCode Catagory
 [Remove Nth Node From End of List](codes/Remove Nth Node From End of List.cpp)  
 [Merge Two Sorted Lists](codes/Merge Two Sorted Lists.cpp)   
 [Merge k Sorted Lists](codes/Merge k Sorted Lists.cpp)  
-[Swap Nodes in Pairs](codes/Swap Nodes in Pairs.cpp)
+[Swap Nodes in Pairs](codes/Swap Nodes in Pairs.cpp)  
+[Reverse Nodes in k-Group](codes/Reverse Nodes in k-Group.cpp)
 
 ### String
 
