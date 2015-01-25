@@ -7,6 +7,7 @@
  *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
  * };
  */
+// morris traverse
 class Solution {
 public:
     void recoverTree(TreeNode *root) {
@@ -44,5 +45,32 @@ private:
                 root=root->right;
             }
         }
+    }
+};
+
+// recursion inorder traverse
+class Solution {
+public:
+    void recoverTree(TreeNode *root) {
+        if(!root)   return;
+        TreeNode *first=nullptr, *second=nullptr;
+        traverse(root, nullptr, nullptr, first, second);
+        swap(first->val, second->val);
+    }
+private:
+    void traverse(TreeNode *root, TreeNode *leftBound, TreeNode *rightBound, TreeNode *&first, TreeNode *&second){
+        if(root->left)  traverse(root->left, leftBound, root, first, second);
+        if(leftBound && leftBound->val>root->val){
+            if(!first)
+                first=leftBound;
+            second=root;
+        }
+        if(rightBound && rightBound->val<root->val){
+            if(!first){
+                first=root;
+            }
+            second=rightBound;
+        }
+        if(root->right) traverse(root->right, root, rightBound, first, second);
     }
 };
