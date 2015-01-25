@@ -54,7 +54,8 @@ LeetCode Catagory
 [Construct Binary Tree from Inorder and Postorder Traversal](codes/Construct Binary Tree from Inorder and Postorder Traversal.cpp)     
 [Convert Sorted Array to Binary Search Tree](codes/Convert Sorted Array to Binary Search Tree.cpp)   
 [Convert Sorted List to Binary Search Tree](codes/Convert Sorted List to Binary Search Tree.cpp)    
-[Flatten Binary Tree to Linked List](codes/Flatten Binary Tree to Linked List.cpp)
+[Flatten Binary Tree to Linked List](codes/Flatten Binary Tree to Linked List.cpp)    
+[Populating Next Right Pointers in Each Node](codes/Populating Next Right Pointers in Each Node.cpp)    
 
 
 ### String
