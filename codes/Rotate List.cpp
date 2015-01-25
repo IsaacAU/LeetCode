@@ -9,24 +9,21 @@
 class Solution {
 public:
     ListNode *rotateRight(ListNode *head, int k) {
-        if(k==0 || !head || !head->next)   return head;
-        ListNode *nd=head;
-        int len=1;
-        while(nd->next){
-            ++len;
-            nd=nd->next;
+        if(!head || !head->next)    return head;
+        int n=1;
+        ListNode *end=head;
+        while(end->next){
+            ++n;
+            end=end->next;
         }
-        k=k%len;
+        k%=n;
         if(k==0)    return head;
-        k=len-k;
-        ListNode *pre=nullptr, *end=nd;
-        nd=head;
-        while(k--){
-            pre=nd;
-            nd=nd->next;
-        }
-        pre->next=nullptr;  end->next=head;
-        head=nd;
+        n-=k;
+        ListNode *nd=head;
+        while(--n)  nd=nd->next;
+        end->next=head;
+        head=nd->next;
+        nd->next=nullptr;
         return head;
     }
 };
