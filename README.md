@@ -9,5 +9,5 @@ LeetCode Catagory
 [Two Sum](codes/Two Sum.cpp)
 [3 Sum](codes/3Sum.cpp)
 [3 Sum Closest](codes/3Sum Closest.cpp)
-[4 Sum](4Sum.cpp)
+[4 Sum](codes/4Sum.cpp)
 
