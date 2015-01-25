@@ -28,7 +28,8 @@ LeetCode Catagory
 [Copy List with Random Pointer](codes/Copy List with Random Pointer.cpp)   
 [Linked List Cycle](codes/Linked List Cycle.cpp)   
 [Linked List Cycle II](codes/Linked List Cycle II.cpp)   
-[Reorder List](codes/Reorder List.cpp)
+[Reorder List](codes/Reorder List.cpp)   
+[Insertion Sort List](codes/Insertion Sort List.cpp)
 
 ### String
 
