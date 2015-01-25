@@ -4,25 +4,23 @@ public:
         vector<vector<int>> res;
         if(num.size()<3)    return res;
         sort(begin(num), end(num));
-        for(int i=0; i<num.size(); ++i){
+        for(int i=0; i<num.size()-2; ++i){
             if(i>0 && num[i]==num[i-1]) continue;
-            int target=-num[i];
-            if(target<0)    break;
-            int j=i+1, k=num.size()-1;
-            while(j<k){
-                if(num[j]+num[k]<target)
-                    ++j;
-                else if(num[j]+num[k]>target)
-                    --k;
-                else{
-                    res.push_back(move(vector<int>{num[i],num[j],num[k]}));
-                    ++j;
-                    --k;
-                }
-                while(j>i+1 && num[j]==num[j-1]) ++j;
-                while(k<num.size()-1 && num[k]==num[k+1]) --k;
+            if(num[i]>0)    break;
+            int x=i+1, y=num.size()-1;
+            while(x<y){
+                int sum=num[i]+num[x]+num[y];
+                if(sum==0){
+                    res.push_back({num[i], num[x], num[y]});
+                    ++x;    --y;
+                }else if(sum>0)
+                    --y;
+                else
+                    ++x;
+                while(x>i+1 && x<num.size() && num[x]==num[x-1])    ++x;
+                while(y<num.size()-1 && y>i && num[y]==num[y+1])    --y;
             }
         }
-        return move(res);
+        return res;
     }
 };
