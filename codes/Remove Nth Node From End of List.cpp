@@ -9,21 +9,17 @@
 class Solution {
 public:
     ListNode *removeNthFromEnd(ListNode *head, int n) {
-        ListNode *nd=head;
-        while(--n) nd=nd->next;
-        if(!nd->next){
-            nd=head->next;
-            delete head;
-            return nd;
-        }
-        ListNode *pre=nullptr, *cur=head;
+        ListNode dummy(-1); dummy.next=head;
+        ListNode *prev=&dummy, *nd=head;
+        while(--n)
+            nd=nd->next;
         while(nd->next){
-            pre=cur;
-            cur=cur->next;
+            prev=prev->next;
             nd=nd->next;
         }
-        pre->next=cur->next;
-        delete cur;
-        return head;
+        ListNode *tmp=prev->next;
+        prev->next=tmp->next;
+        delete tmp;
+        return dummy.next;
     }
 };
