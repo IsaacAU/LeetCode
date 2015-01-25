@@ -36,6 +36,7 @@ LeetCode Catagory
 ### Binary Tree
 
 [Binary Tree Inorder Traversal](codes/Binary Tree Inorder Traversal.cpp)    (view [this](https://github.com/IsaacAU/knowledge/blob/master/BinaryTree/inOrder.cpp))  
+[Unique Binary Search Trees](codes/Unique Binary Search Trees.cpp)   
 [Unique Binary Search Trees II](codes/Unique Binary Search Trees II.cpp)
 
 
