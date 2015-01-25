@@ -39,7 +39,8 @@ LeetCode Catagory
 [Unique Binary Search Trees](codes/Unique Binary Search Trees.cpp)   
 [Unique Binary Search Trees II](codes/Unique Binary Search Trees II.cpp)   
 [Validate Binary Search Tree](codes/Validate Binary Search Tree.cpp)  
-[Recover Binary Search Tree](codes/Recover Binary Search Tree.cpp)
+[Recover Binary Search Tree](codes/Recover Binary Search Tree.cpp)   
+[Same Tree](codes/Same Tree.cpp)
 
 
 ### String
