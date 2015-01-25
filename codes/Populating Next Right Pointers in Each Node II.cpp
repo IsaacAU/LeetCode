@@ -9,33 +9,32 @@
 class Solution {
 public:
     void connect(TreeLinkNode *root) {
-        TreeLinkNode *cur=root, *next=nullptr;
-        while(cur){
-            while(cur){
-                if(cur->left){
-                    next=cur->left;
-                    break;
-                }else if(cur->right){
-                    next=cur->right;
-                    break;
+        TreeLinkNode *nextHead=nullptr, *prev=nullptr;
+        while(root){
+            while(root){
+                if(root->left){
+                    if(prev){
+                        prev->next=root->left;
+                        prev=prev->next;
+                    }else{
+                        nextHead=root->left;
+                        prev=root->left;
+                    }
                 }
-                cur=cur->next;
+                if(root->right){
+                    if(prev){
+                        prev->next=root->right;
+                        prev=prev->next;
+                    }else{
+                        nextHead=root->right;
+                        prev=root->right;
+                    }
+                }
+                root=root->next;
             }
-            if(!next)   break;
-            TreeLinkNode *nd=next;
-            while(cur){
-                if(cur->left && nd!=cur->left){
-                    nd->next=cur->left;
-                    nd=nd->next;
-                }
-                if(cur->right && nd!=cur->right){
-                    nd->next=cur->right;
-                    nd=nd->next;
-                }
-                cur=cur->next;
-            }
-            cur=next;
-            next=nullptr;
+            root=nextHead;
+            nextHead=nullptr;
+            prev=nullptr;
         }
     }
 };
