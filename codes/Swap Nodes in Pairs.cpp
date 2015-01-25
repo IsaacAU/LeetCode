@@ -11,13 +11,14 @@ public:
     ListNode *swapPairs(ListNode *head) {
         ListNode dummy(-1);
         dummy.next=head;
-        ListNode *pre=&dummy, *nd=head;
-        while(nd && nd->next){
-            ListNode *next=nd->next, *nextnext=next->next;
-            pre->next=next;
-            next->next=nd;
-            nd->next=nextnext;
-            pre=nd;  nd=nextnext;
+        ListNode *prev=&dummy;
+        while(prev->next && prev->next->next){
+            ListNode *tmp=prev->next;
+            prev->next=tmp->next;
+            prev=prev->next;
+            tmp->next=prev->next;
+            prev->next=tmp;
+            prev=prev->next;
         }
         return dummy.next;
     }
