@@ -42,7 +42,8 @@ LeetCode Catagory
 [Recover Binary Search Tree](codes/Recover Binary Search Tree.cpp)   
 [Same Tree](codes/Same Tree.cpp)    
 [Symmetric Tree](codes/Symmetric Tree.cpp)   
-[Binary Tree Level Order Traversal](codes/Binary Tree Level Order Traversal.cpp)
+[Binary Tree Level Order Traversal](codes/Binary Tree Level Order Traversal.cpp)   
+[Binary Tree Zigzag Level Order Traversal](codes/Binary Tree Zigzag Level Order Traversal.cpp)
 
 
 ### String
