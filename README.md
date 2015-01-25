@@ -31,7 +31,12 @@ LeetCode Catagory
 [Reorder List](codes/Reorder List.cpp)   
 [Insertion Sort List](codes/Insertion Sort List.cpp)  
 [Sort List](codes/Sort List.cpp)   
-[Intersection of Two Linked Lists](codes/Intersection of Two Linked Lists.cpp)
+[Intersection of Two Linked Lists](codes/Intersection of Two Linked Lists.cpp)  
+
+### Binary Tree
+
+[Binary Tree Inorder Traversal](codes/Binary Tree Inorder Traversal.cpp)    (view [this](https://github.com/IsaacAU/knowledge/blob/master/BinaryTree/inOrder.cpp))
+
 
 ### String
 
