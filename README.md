@@ -24,7 +24,8 @@ LeetCode Catagory
 [Remove Duplicates from Sorted List](codes/Remove Duplicates from Sorted List.cpp)   
 [Remove Duplicates from Sorted List II](codes/Remove Duplicates from Sorted List II.cpp)   
 [Partition List](codes/Partition List.cpp)  
-[Reverse Linked List II](codes/Reverse Linked List II.cpp)
+[Reverse Linked List II](codes/Reverse Linked List II.cpp)   
+[Copy List with Random Pointer](codes/Copy List with Random Pointer.cpp)
 
 ### String
 
