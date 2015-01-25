@@ -9,34 +9,30 @@
 class Solution {
 public:
     ListNode *mergeKLists(vector<ListNode *> &lists) {
-        return mergeLists(begin(lists), end(lists));
+        return merge(begin(lists), end(lists));
     }
 private:
-    ListNode *mergeLists(vector<ListNode*>::iterator b, vector<ListNode*>::iterator e){
+    ListNode *merge(vector<ListNode*>::iterator b, vector<ListNode*>::iterator e){
         if(b==e)    return nullptr;
-        if(b==e-1)  return *b;
-        if(b==e-2)  return mergeTwo(*b, *(b+1));
+        if(next(b)==e)  return *b;
         auto m=b+(e-b)/2;
-        return mergeTwo(mergeLists(b,m), mergeLists(m,e));
+        return mergeList(merge(b, m), merge(m,e));
     }
-    ListNode *mergeTwo(ListNode *first, ListNode *second){
+    ListNode *mergeList(ListNode *first, ListNode *second){
         ListNode dummy(-1);
-        ListNode *head=&dummy;
+        ListNode *prev=&dummy;
         while(first && second){
             if(first->val<second->val){
-                head->next=first;
-                head=head->next;
+                prev->next=first;
                 first=first->next;
             }else{
-                head->next=second;
-                head=head->next;
+                prev->next=second;
                 second=second->next;
             }
+            prev=prev->next;
         }
-        if(first)
-            head->next=first;
-        if(second)
-            head->next=second;
+        if(first)   prev->next=first;
+        if(second)  prev->next=second;
         return dummy.next;
     }
 };
