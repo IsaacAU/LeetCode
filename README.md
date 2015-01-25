@@ -19,7 +19,8 @@ LeetCode Catagory
 [Merge Two Sorted Lists](codes/Merge Two Sorted Lists.cpp)   
 [Merge k Sorted Lists](codes/Merge k Sorted Lists.cpp)  
 [Swap Nodes in Pairs](codes/Swap Nodes in Pairs.cpp)  
-[Reverse Nodes in k-Group](codes/Reverse Nodes in k-Group.cpp)
+[Reverse Nodes in k-Group](codes/Reverse Nodes in k-Group.cpp)    
+[Rotate List](codes/Rotate List.cpp)
 
 ### String
 
