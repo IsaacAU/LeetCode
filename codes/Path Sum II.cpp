@@ -13,29 +13,21 @@ public:
         vector<vector<int>> res;
         if(!root)   return res;
         vector<int> path;
-        int cur;
-        search(root, sum, res, path, cur);
+        search(root, sum, res, path);
         return res;
     }
 private:
-    void search(TreeNode *root, int sum, vector<vector<int>> &res, vector<int> &path, int cur){
+    void search(TreeNode *root, int sum,  vector<vector<int>> &res, vector<int> &path){
+        path.push_back(root->val);
+        sum-=root->val;
         if(!root->left && !root->right){
-            if(sum==cur+root->val){
-                path.push_back(root->val);
+            if(sum==0)
                 res.push_back(path);
-                path.pop_back();
-            }
+            path.pop_back();
             return;
         }
-        if(root->left){
-            path.push_back(root->val);  cur+=root->val;
-            search(root->left, sum, res, path, cur);
-            path.pop_back();  cur-=root->val;
-        }
-        if(root->right){
-            path.push_back(root->val);  cur+=root->val;
-            search(root->right, sum, res, path, cur);
-            path.pop_back();   cur-=root->val;
-        }
+        if(root->left)  search(root->left, sum, res, path);
+        if(root->right) search(root->right, sum, res, path);
+        path.pop_back();
     }
 };
