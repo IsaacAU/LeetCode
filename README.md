@@ -22,7 +22,8 @@ LeetCode Catagory
 [Reverse Nodes in k-Group](codes/Reverse Nodes in k-Group.cpp)    
 [Rotate List](codes/Rotate List.cpp)  
 [Remove Duplicates from Sorted List](codes/Remove Duplicates from Sorted List.cpp)   
-[Remove Duplicates from Sorted List II](codes/Remove Duplicates from Sorted List II.cpp)
+[Remove Duplicates from Sorted List II](codes/Remove Duplicates from Sorted List II.cpp)   
+[Partition List](codes/Partition List.cpp)
 
 ### String
 
