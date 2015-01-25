@@ -46,7 +46,7 @@ LeetCode Catagory
 [Binary Tree Level Order Traversal II](codes/Binary Tree Level Order Traversal II.cpp)  
 [Binary Tree Zigzag Level Order Traversal](codes/Binary Tree Zigzag Level Order Traversal.cpp)  
 [Maximum Depth of Binary Tree](codes/Maximum Depth of Binary Tree.cpp)  
-[Convert Sorted List to Binary Search Tree](codes/Convert Sorted List to Binary Search Tree.cpp)     
+[Balanced Binary Tree](codes/Balanced Binary Tree.cpp)         
 [Construct Binary Tree from Preorder and Inorder Traversal](codes/Construct Binary Tree from Preorder and Inorder Traversal.cpp)   
 [Construct Binary Tree from Inorder and Postorder Traversal](codes/Construct Binary Tree from Inorder and Postorder Traversal.cpp)     
 [Convert Sorted Array to Binary Search Tree](codes/Convert Sorted Array to Binary Search Tree.cpp)   
