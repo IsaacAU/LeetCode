@@ -12,3 +12,5 @@ LeetCode Catagory
 [4 Sum](codes/4Sum.cpp)
 [Two Sum III - Data structure design](codes/Two Sum III - Data structure design.cpp)
 
+### Singly linked list
+
