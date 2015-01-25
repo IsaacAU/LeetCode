@@ -43,7 +43,8 @@ LeetCode Catagory
 [Same Tree](codes/Same Tree.cpp)    
 [Symmetric Tree](codes/Symmetric Tree.cpp)   
 [Binary Tree Level Order Traversal](codes/Binary Tree Level Order Traversal.cpp)   
-[Binary Tree Zigzag Level Order Traversal](codes/Binary Tree Zigzag Level Order Traversal.cpp)
+[Binary Tree Zigzag Level Order Traversal](codes/Binary Tree Zigzag Level Order Traversal.cpp)  
+[Maximum Depth of Binary Tree](codes/Maximum Depth of Binary Tree.cpp)
 
 
 ### String
