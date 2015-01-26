@@ -74,4 +74,4 @@ LeetCode Catagory
 [Longest Substring Without Repeating Characters](codes/Longest Substring Without Repeating Characters.cpp)    
 [Longest Palindromic Substring](codes/Longest Palindromic Substring.cpp)      
 [Substring with Concatenation of All Words](codes/Substring with Concatenation of All Words.cpp)     
-
+[Count and Say](codes/Count and Say.cpp)       
