@@ -82,4 +82,6 @@ LeetCode Catagory
 [Simplify Path](codes/Simplify Path.cpp)        
 [Edit Distance](codes/Edit Distance.cpp)        
 [Minimum Window Substring](codes/Minimum Window Substring.cpp)        
-[Scramble String](codes/Scramble String.cpp)      
+[Scramble String](codes/Scramble String.cpp)     
+[Decode Ways](codes/Decode Ways.cpp)      
+
