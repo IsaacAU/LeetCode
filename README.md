@@ -76,3 +76,4 @@ LeetCode Catagory
 [Longest Palindromic Substring](codes/Longest Palindromic Substring.cpp)      
 [Substring with Concatenation of All Words](codes/Substring with Concatenation of All Words.cpp)     
 [Count and Say](codes/Count and Say.cpp)       
+[Anagrams](codes/Anagrams.cpp)      
