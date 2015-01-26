@@ -86,7 +86,8 @@ LeetCode Catagory
 [Decode Ways](codes/Decode Ways.cpp)        
 [Restore IP Addresses](codes/Restore IP Addresses.cpp)      
 [Interleaving String](codes/Interleaving String.cpp)       
-[Distinct Subsequences](codes/Distinct Subsequences.cpp)     
+[Distinct Subsequences](codes/Distinct Subsequences.cpp)       
+[Valid Palindrome](codes/Valid Palindrome.cpp)     
 
 
 
