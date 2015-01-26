@@ -1,24 +1,23 @@
 class Solution {
 public:
     string countAndSay(int n) {
-        string cur, next("1");
-        while(--n){
-            cur.clear();   cur.swap(next);
-            char digit=cur[0];
-            int cnt=1;
-            for(int i=1; i<cur.length(); ++i){
-                if(cur[i]!=cur[i-1]){
-                    next.push_back('0'+cnt);
-                    next.push_back(digit);
-                    digit=cur[i];
-                    cnt=1;
-                }else{
-                    ++cnt;
+        string res="1";
+        for(int i=2; i<=n; ++i){
+            string next;
+            char c=res[0];  int t=1;
+            for(int j=1; j<res.length(); ++j){
+                if(res[j]==c)    ++t;
+                else{
+                    next.push_back(t+'0');
+                    next.push_back(c);
+                    c=res[j];
+                    t=1;
                 }
             }
-            next.push_back('0'+cnt);
-            next.push_back(digit);
+            next.push_back(t+'0');
+            next.push_back(c);
+            res=next;
         }
-        return next;
+        return res;
     }
 };
