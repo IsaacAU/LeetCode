@@ -73,4 +73,5 @@ LeetCode Catagory
 [Longest Common Prefix](codes/Longest Common Prefix.cpp)     
 [Longest Substring Without Repeating Characters](codes/Longest Substring Without Repeating Characters.cpp)    
 [Longest Palindromic Substring](codes/Longest Palindromic Substring.cpp)      
+[Substring with Concatenation of All Words](codes/Substring with Concatenation of All Words.cpp)     
 
