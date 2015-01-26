@@ -67,7 +67,8 @@ LeetCode Catagory
 ### String
 
 [Longest Substring Without Repeating Characters](codes/Longest Substring Without Repeating Characters.cpp)    
-[Longest Palindromic Substring](codes/Longest Palindromic Substring.cpp)     
+[Longest Palindromic Substring](codes/Longest Palindromic Substring.cpp)      
+[ZigZag Conversion](codes/ZigZag Conversion.cpp)   
 
 
 
