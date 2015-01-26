@@ -81,4 +81,5 @@ LeetCode Catagory
 [Valid Number](codes/Valid Number.cpp) (Easy to understand [idea](https://oj.leetcode.com/discuss/9013/a-simple-solution-in-cpp)!)     
 [Simplify Path](codes/Simplify Path.cpp)        
 [Edit Distance](codes/Edit Distance.cpp)        
-[Minimum Window Substring](codes/Minimum Window Substring.cpp)       
+[Minimum Window Substring](codes/Minimum Window Substring.cpp)        
+[Scramble String](codes/Scramble String.cpp)      
