@@ -77,3 +77,4 @@ LeetCode Catagory
 [Substring with Concatenation of All Words](codes/Substring with Concatenation of All Words.cpp)     
 [Count and Say](codes/Count and Say.cpp)       
 [Anagrams](codes/Anagrams.cpp)      
+[Length of Last Word](codes/Length of Last Word.cpp)    
