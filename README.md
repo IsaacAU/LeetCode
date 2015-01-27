@@ -138,7 +138,8 @@ LeetCode Catagory
 [Search in Rotated Sorted Array](codes/Search in Rotated Sorted Array.cpp)         
 [Search in Rotated Sorted Array II](codes/Search in Rotated Sorted Array II.cpp)      
 [Median of Two Sorted Arrays](codes/Median of Two Sorted Arrays.cpp)      
-[Search for a Range](codes/Search for a Range.cpp)     
+[Search for a Range](codes/Search for a Range.cpp)       
+[Search Insert Position](codes/Search Insert Position.cpp)     
 
 ### Numbers
 
