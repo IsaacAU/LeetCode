@@ -103,3 +103,8 @@ LeetCode Catagory
 [Largest Number](codes/Largest Number.cpp)     
 [Integer to Roman](codes/Integer to Roman.cpp)      
 [Roman to Integer](codes/Roman to Integer.cpp)     
+
+### Parentheses  (Catalan number)
+
+[Valid Parentheses](codes/Valid Parentheses.cpp)      
+[Generate Parentheses](codes/Generate Parentheses.cpp)      
