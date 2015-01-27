@@ -81,6 +81,7 @@ LeetCode Catagory
 [Valid Number](codes/Valid Number.cpp) (Easy to understand [idea](https://oj.leetcode.com/discuss/9013/a-simple-solution-in-cpp)!)     
 [Simplify Path](codes/Simplify Path.cpp)        
 [Edit Distance](codes/Edit Distance.cpp)        
+[One Edit Distance](codes/One Edit Distance.cpp)      
 [Minimum Window Substring](codes/Minimum Window Substring.cpp)        
 [Scramble String](codes/Scramble String.cpp)     
 [Decode Ways](codes/Decode Ways.cpp)        
@@ -96,5 +97,5 @@ LeetCode Catagory
 [Word Break II](codes/Word Break II.cpp)       
 [Evaluate Reverse Polish Notation](codes/Evaluate Reverse Polish Notation.cpp)       
 [Reverse Words in a String](codes/Reverse Words in a String.cpp)      
-[One Edit Distance](codes/One Edit Distance.cpp)      
+
 
