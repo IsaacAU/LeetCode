@@ -130,3 +130,7 @@ LeetCode Catagory
 
 [Single Number](codes/Single Number.cpp)         
 [Single Number II](codes/Single Number II.cpp)       
+
+### Binary Search
+
+[Find Minimum in Rotated Sorted Array](codes/Find Minimum in Rotated Sorted Array.cpp)      
