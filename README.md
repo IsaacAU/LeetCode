@@ -102,7 +102,8 @@ LeetCode Catagory
 [Excel Sheet Column Number](codes/Excel Sheet Column Number.cpp)       
 [Largest Number](codes/Largest Number.cpp)     
 [Integer to Roman](codes/Integer to Roman.cpp)      
-[Roman to Integer](codes/Roman to Integer.cpp)     
+[Roman to Integer](codes/Roman to Integer.cpp)        
+[Text Justification](codes/Text Justification.cpp)      
 
 ### Parentheses  (Catalan number)
 
