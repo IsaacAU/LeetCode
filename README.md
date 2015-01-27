@@ -134,3 +134,4 @@ LeetCode Catagory
 ### Binary Search
 
 [Find Minimum in Rotated Sorted Array](codes/Find Minimum in Rotated Sorted Array.cpp)      
+[Find Minimum in Rotated Sorted Array II](codes/Find Minimum in Rotated Sorted Array II.cpp)       
