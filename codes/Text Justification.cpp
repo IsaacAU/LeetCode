@@ -1,55 +1,64 @@
 class Solution {
 public:
     vector<string> fullJustify(vector<string> &words, int L) {
-        vector<string> res, line;
-        int i=0, num=0;
-        bool unfinish=false;
+        vector<string> res;
+        if(words.empty())   return res;
+        int i=0, cur=0;
+        vector<string> line;
         while(i<words.size()){
-            if(words[i].length()>L) return vector<string>();
-            int newLen=(num==0?num:num+1)+words[i].length();
-            if(newLen<L){
+            if(cur+line.size()+words[i].length()==L){
                 line.push_back(words[i]);
-                num=newLen;
+                res.push_back(string());
+                for(auto s:line){
+                    if(res.back().empty())
+                        res.back()+=s;
+                    else
+                        res.back()+=" "+s;
+                }
+                line.clear();
+                cur=0;
                 ++i;
-                if(i==words.size()) unfinish=true;
-            }else if(newLen==L){
-                num=newLen; line.push_back(words[i]);
-                string s=format(line, num, L, i==words.size()-1);
-                res.push_back(s);
-                num=0;  line.clear();
-                ++i;
+            }else if(cur+line.size()+words[i].length()>L){
+                res.push_back(string());
+                if(line.size()==1){
+                    res.back()+=line[0];
+                    res.back()+=string(L-cur, ' ');
+                }else{
+                    int each=(L-cur)/(line.size()-1);
+                    int rem=(L-cur)%(line.size()-1);
+                    int i=0;
+                    for(; i<line.size()-1; ++i){
+                        res.back()+=line[i];
+                        res.back()+=string(each, ' ');
+                        if(i<rem)   res.back()+=" ";
+                    }
+                    res.back()+=line[i];
+                }
+                cur=0;
+                line.clear();
             }else{
-                string s=format(line, num, L, false);
-                res.push_back(s);
-                num=0;  line.clear();
+                line.push_back(words[i]);
+                cur+=words[i].length();
+                ++i;
             }
         }
-        if(unfinish){
-            string s=format(line, num, L, true);
-            res.push_back(s);
-        }
-        return move(res);
-    }
-private:
-    string format(vector<string> &line, int num, int L, bool last){
-        string res;
-        if(last){
-            res=line[0];
-            for(int i=1; i<line.size(); ++i)
-                res+=" "+line[i];
-            res+=string(L-num, ' ');
-        }else{
+        if(!line.empty()){
+            res.push_back(string());
             if(line.size()==1){
-                res=line[0]+string(L-num, ' ');
+                res.back()+=line[0];
+                res.back()+=string(L-cur, ' ');
             }else{
-                int extra=L-num;
-                int each=extra/(line.size()-1)+1;
-                int rem=extra%(line.size()-1);
-                for(int i=0; i<rem; ++i)    res+=line[i]+string(each+1,' ');
-                for(int i=rem; i<line.size()-1; ++i)    res+=line[i]+string(each, ' ');
-                res+=line.back();
+                for(auto s:line){
+                    if(res.back().empty())
+                        res.back()+=s;
+                    else
+                        res.back()+=" "+s;
+                }
+                res.back()+=string(L-cur-line.size()+1, ' ');
             }
         }
-        return move(res);
+        if(res.empty() && L>0)
+            res.push_back(string(L, ' '));
+        return res;
     }
 };
