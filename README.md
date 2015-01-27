@@ -122,4 +122,6 @@ LeetCode Catagory
 [Combinations](codes/Combinations.cpp)       
 [Combination Sum](codes/Combination Sum.cpp)       
 [Combination Sum II](codes/Combination Sum II.cpp)      
-[Letter Combinations of a Phone Number](codes/Letter Combinations of a Phone Number.cpp)       
+[Letter Combinations of a Phone Number](codes/Letter Combinations of a Phone Number.cpp)           
+[Subsets](codes/Subsets.cpp)      
+[Subsets II](codes/Subsets II.cpp)       
