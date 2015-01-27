@@ -90,6 +90,8 @@ LeetCode Catagory
 [Valid Palindrome](codes/Valid Palindrome.cpp)       
 [Word Ladder](codes/Word Ladder.cpp)       
 [Word Ladder II](codes/Word Ladder II.cpp)      
-[Palindrome Partitioning](codes/Palindrome Partitioning.cpp)     
+[Palindrome Partitioning](codes/Palindrome Partitioning.cpp)       
+[Palindrome Partitioning II](codes/Palindrome Partitioning II.cpp)    
+
 
 
