@@ -109,3 +109,10 @@ LeetCode Catagory
 [Valid Parentheses](codes/Valid Parentheses.cpp)      
 [Generate Parentheses](codes/Generate Parentheses.cpp)      
 [Longest Valid Parentheses](codes/Longest Valid Parentheses.cpp)      
+
+### Permutations
+
+[Next Permutation](codes/Next Permutation.cpp)      
+[Permutations](codes/Permutations.cpp)       
+[Permutations II](codes/Permutations II.cpp)        
+[Permutation Sequence](codes/Permutation Sequence.cpp)        
