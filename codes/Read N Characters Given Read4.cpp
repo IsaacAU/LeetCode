@@ -16,7 +16,7 @@ public:
             x=read4(buf+4*i);
             if(x<4) return 4*i+x;
         }
-        if(n%4==0)  return 4*(i+1);
+        if(n%4==0)  return 4*i;
         x=read4(backup);
         for(int j=0; j<min(x,n%4); ++j)
             buf[4*i+j]=backup[j];
