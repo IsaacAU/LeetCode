@@ -125,3 +125,8 @@ LeetCode Catagory
 [Letter Combinations of a Phone Number](codes/Letter Combinations of a Phone Number.cpp)           
 [Subsets](codes/Subsets.cpp)      
 [Subsets II](codes/Subsets II.cpp)       
+
+### Bit Manipulation
+
+[Single Number](codes/Single Number.cpp)         
+[Single Number II](codes/Single Number II.cpp)       
