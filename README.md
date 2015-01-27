@@ -138,3 +138,8 @@ LeetCode Catagory
 [Search in Rotated Sorted Array](codes/Search in Rotated Sorted Array.cpp)         
 [Search in Rotated Sorted Array II](codes/Search in Rotated Sorted Array II.cpp)      
 [Median of Two Sorted Arrays](codes/Median of Two Sorted Arrays.cpp)      
+
+### Numbers
+
+[Reverse Integer](codes/Reverse Integer.cpp)       
+[Palindrome Number](codes/Palindrome Number.cpp)      
