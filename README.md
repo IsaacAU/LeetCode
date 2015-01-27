@@ -145,4 +145,5 @@ LeetCode Catagory
 
 [Reverse Integer](codes/Reverse Integer.cpp)       
 [Palindrome Number](codes/Palindrome Number.cpp)      
-[Divide Two Integers](codes/Divide Two Integers.cpp)       
+[Divide Two Integers](codes/Divide Two Integers.cpp)        
+[Pow(x, n)](codes/Pow(x, n).cpp)        
