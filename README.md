@@ -166,3 +166,5 @@ LeetCode Catagory
 [Remove Duplicates from Sorted Array](codes/Remove Duplicates from Sorted Array.cpp)       
 [Remove Element](codes/Remove Element.cpp)         
 [First Missing Positive](codes/First Missing Positive.cpp)      
+[Jump Game](codes/Jump Game.cpp)       
+[Jump Game II](codes/Jump Game II.cpp)      
