@@ -161,7 +161,8 @@ LeetCode Catagory
 
 ### Arrays
 
-[Container With Most Water](codes/Container With Most Water.cpp)      
+[Container With Most Water](codes/Container With Most Water.cpp)        
+[Trapping Rain Water](codes/Trapping Rain Water.cpp)      
 [Remove Duplicates from Sorted Array](codes/Remove Duplicates from Sorted Array.cpp)       
 [Remove Element](codes/Remove Element.cpp)         
 [First Missing Positive](codes/First Missing Positive.cpp)      
