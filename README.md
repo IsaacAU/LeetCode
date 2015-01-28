@@ -158,3 +158,7 @@ LeetCode Catagory
 [Multiply Strings](codes/Multiply Strings.cpp)      
 [Plus One](codes/Plus One.cpp)       
 [Add Binary](codes/Add Binary.cpp)       
+
+### Arrays
+
+[Container With Most Water](codes/Container With Most Water.cpp)      
