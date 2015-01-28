@@ -181,7 +181,8 @@ LeetCode Catagory
 [Longest Consecutive Sequence](codes/Longest Consecutive Sequence.cpp)        
 [Gas Station](codes/Gas Station.cpp)        
 [Candy](codes/Candy.cpp)       
-[Maximum Product Subarray](codes/Maximum Product Subarray.cpp)     
+[Maximum Product Subarray](codes/Maximum Product Subarray.cpp)       
+[Find Peak Element](codes/Find Peak Element.cpp)      
 
 ### Intervals
 
