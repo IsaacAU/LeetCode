@@ -183,7 +183,8 @@ LeetCode Catagory
 [Gas Station](codes/Gas Station.cpp)        
 [Candy](codes/Candy.cpp)       
 [Find Peak Element](codes/Find Peak Element.cpp)        
-[Majority Element](codes/Majority Element.cpp)    (Moore’s Voting Algorithm)
+[Majority Element](codes/Majority Element.cpp)    (Moore’s Voting Algorithm)   
+[Maximum Gap](codes/Maximum Gap.cpp)     (Bucket Sort)
 
 ### Intervals
 
