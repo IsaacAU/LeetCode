@@ -152,3 +152,9 @@ LeetCode Catagory
 [Sqrt(x)](codes/Sqrt(x).cpp)         
 [Fraction to Recurring Decimal](codes/Fraction to Recurring Decimal.cpp)        
 [Factorial Trailing Zeroes](codes/Factorial Trailing Zeroes.cpp)      
+
+### Big Data
+
+[Multiply Strings](codes/Multiply Strings.cpp)      
+[Plus One](codes/Plus One.cpp)       
+[Add Binary](codes/Add Binary.cpp)       
