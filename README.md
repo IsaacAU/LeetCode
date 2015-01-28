@@ -149,4 +149,5 @@ LeetCode Catagory
 [Palindrome Number](codes/Palindrome Number.cpp)      
 [Divide Two Integers](codes/Divide Two Integers.cpp)        
 [Pow(x, n)](codes/Pow(x, n).cpp)          
-[Sqrt(x)](codes/Sqrt(x).cpp)       
+[Sqrt(x)](codes/Sqrt(x).cpp)         
+[Fraction to Recurring Decimal](codes/Fraction to Recurring Decimal.cpp)      
