@@ -168,7 +168,9 @@ LeetCode Catagory
 [First Missing Positive](codes/First Missing Positive.cpp)      
 [Jump Game](codes/Jump Game.cpp)       
 [Jump Game II](codes/Jump Game II.cpp)      
-[Maximum Subarray](codes/Maximum Subarray.cpp)      
+[Maximum Subarray](codes/Maximum Subarray.cpp)       
+[Climbing Stairs](codes/Climbing Stairs.cpp)       
+[Sort Colors](codes/Sort Colors.cpp)       
 
 ### Intervals
 
