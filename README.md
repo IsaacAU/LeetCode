@@ -162,7 +162,8 @@ LeetCode Catagory
 ### Arrays
 
 [Container With Most Water](codes/Container With Most Water.cpp)        
-[Trapping Rain Water](codes/Trapping Rain Water.cpp)      
+[Trapping Rain Water](codes/Trapping Rain Water.cpp)        
+[Largest Rectangle in Histogram](codes/Largest Rectangle in Histogram.cpp)     
 [Remove Duplicates from Sorted Array](codes/Remove Duplicates from Sorted Array.cpp)       
 [Remove Duplicates from Sorted Array II](codes/Remove Duplicates from Sorted Array II.cpp)        
 [Remove Element](codes/Remove Element.cpp)         
@@ -171,7 +172,7 @@ LeetCode Catagory
 [Jump Game II](codes/Jump Game II.cpp)      
 [Maximum Subarray](codes/Maximum Subarray.cpp)       
 [Climbing Stairs](codes/Climbing Stairs.cpp)       
-[Sort Colors](codes/Sort Colors.cpp)       
+[Sort Colors](codes/Sort Colors.cpp)         
 
 ### Intervals
 
