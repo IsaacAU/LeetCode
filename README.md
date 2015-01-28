@@ -125,7 +125,8 @@ LeetCode Catagory
 [Combination Sum II](codes/Combination Sum II.cpp)      
 [Letter Combinations of a Phone Number](codes/Letter Combinations of a Phone Number.cpp)           
 [Subsets](codes/Subsets.cpp)      
-[Subsets II](codes/Subsets II.cpp)       
+[Subsets II](codes/Subsets II.cpp)         
+[Gray Code](codes/Gray Code.cpp)       
 
 ### Bit Manipulation
 
