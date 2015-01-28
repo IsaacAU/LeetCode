@@ -172,7 +172,8 @@ LeetCode Catagory
 [Jump Game II](codes/Jump Game II.cpp)      
 [Maximum Subarray](codes/Maximum Subarray.cpp)       
 [Climbing Stairs](codes/Climbing Stairs.cpp)       
-[Sort Colors](codes/Sort Colors.cpp)         
+[Sort Colors](codes/Sort Colors.cpp)          
+[Merge Sorted Array](codes/Merge Sorted Array.cpp)       
 
 ### Intervals
 
