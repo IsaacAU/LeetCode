@@ -182,7 +182,8 @@ LeetCode Catagory
 [Longest Consecutive Sequence](codes/Longest Consecutive Sequence.cpp)        
 [Gas Station](codes/Gas Station.cpp)        
 [Candy](codes/Candy.cpp)       
-[Find Peak Element](codes/Find Peak Element.cpp)      
+[Find Peak Element](codes/Find Peak Element.cpp)        
+[Majority Element](codes/Majority Element.cpp)    (Moore’s Voting Algorithm)
 
 ### Intervals
 
