@@ -178,6 +178,7 @@ LeetCode Catagory
 [Best Time to Buy and Sell Stock](codes/Best Time to Buy and Sell Stock.cpp)        
 [Best Time to Buy and Sell Stock II](codes/Best Time to Buy and Sell Stock II.cpp)         
 [Best Time to Buy and Sell Stock III](codes/Best Time to Buy and Sell Stock III.cpp)      
+[Longest Consecutive Sequence](codes/Longest Consecutive Sequence.cpp)      
 
 ### Intervals
 
