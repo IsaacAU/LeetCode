@@ -175,7 +175,9 @@ LeetCode Catagory
 [Climbing Stairs](codes/Climbing Stairs.cpp)       
 [Sort Colors](codes/Sort Colors.cpp)          
 [Merge Sorted Array](codes/Merge Sorted Array.cpp)         
-[Best Time to Buy and Sell Stock](codes/Best Time to Buy and Sell Stock.cpp)      
+[Best Time to Buy and Sell Stock](codes/Best Time to Buy and Sell Stock.cpp)        
+[Best Time to Buy and Sell Stock II](codes/Best Time to Buy and Sell Stock II.cpp)         
+[Best Time to Buy and Sell Stock III](codes/Best Time to Buy and Sell Stock III.cpp)      
 
 ### Intervals
 
