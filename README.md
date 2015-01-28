@@ -174,7 +174,8 @@ LeetCode Catagory
 [Maximum Subarray](codes/Maximum Subarray.cpp)       
 [Climbing Stairs](codes/Climbing Stairs.cpp)       
 [Sort Colors](codes/Sort Colors.cpp)          
-[Merge Sorted Array](codes/Merge Sorted Array.cpp)       
+[Merge Sorted Array](codes/Merge Sorted Array.cpp)         
+[Best Time to Buy and Sell Stock](codes/Best Time to Buy and Sell Stock.cpp)      
 
 ### Intervals
 
