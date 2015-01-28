@@ -169,3 +169,8 @@ LeetCode Catagory
 [Jump Game](codes/Jump Game.cpp)       
 [Jump Game II](codes/Jump Game II.cpp)      
 [Maximum Subarray](codes/Maximum Subarray.cpp)      
+
+### Intervals
+
+[Merge Intervals](codes/Merge Intervals.cpp)        
+[Insert Interval](codes/Insert Interval.cpp)      
