@@ -180,7 +180,8 @@ LeetCode Catagory
 [Best Time to Buy and Sell Stock III](codes/Best Time to Buy and Sell Stock III.cpp)      
 [Longest Consecutive Sequence](codes/Longest Consecutive Sequence.cpp)        
 [Gas Station](codes/Gas Station.cpp)        
-[Candy](codes/Candy.cpp)     
+[Candy](codes/Candy.cpp)       
+[Maximum Product Subarray](codes/Maximum Product Subarray.cpp)     
 
 ### Intervals
 
