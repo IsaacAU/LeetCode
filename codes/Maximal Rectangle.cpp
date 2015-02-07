@@ -1,3 +1,4 @@
+// method 1
 class Solution {
 public:
     int maximalRectangle(vector<vector<char> > &matrix) {
@@ -24,6 +25,42 @@ public:
                     r=j;
             }
         }
+        return res;
+    }
+};
+
+// method 2
+class Solution {
+public:
+    int maximalRectangle(vector<vector<char> > &matrix) {
+        if(matrix.empty())  return 0;
+        const int m=matrix.size(), n=matrix[0].size();
+        vector<int> hist(n, 0);
+        int res=0;
+        for(int i=0; i<m; ++i){
+            for(int j=0; j<n; ++j){
+                if(matrix[i][j]=='1')
+                    ++hist[j];
+                else
+                    hist[j]=0;
+            }
+            res=max(res, maxArea(hist));
+        }
+        return res;
+    }
+private:
+    int maxArea(vector<int> &hist){
+        stack<int> stk;
+        hist.push_back(0);
+        int res=0;
+        for(int i=0; i<hist.size(); ++i){
+            while(!stk.empty() && hist[i]<=hist[stk.top()]){
+                int h=hist[stk.top()];  stk.pop();
+                res=max(res, h*(i-1-(stk.empty()?-1:stk.top())));
+            }
+            stk.push(i);
+        }
+        hist.pop_back();
         return res;
     }
 };
